@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="java8.streams.FunctionalProgrammingJavaTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2018-03-23T12:18:46" hostname="polpc03758" time="0.016">
+  <properties/>
+  <testcase name="listInternalIterLambdaMethod" classname="java8.streams.FunctionalProgrammingJavaTest" time="0.001"/>
+  <testcase name="listIteratorHighCeremony" classname="java8.streams.FunctionalProgrammingJavaTest" time="0.001"/>
+  <testcase name="countDogsWithSixCharactersDec" classname="java8.streams.FunctionalProgrammingJavaTest" time="0.004"/>
+  <testcase name="countDogsWithSixCharactersImp" classname="java8.streams.FunctionalProgrammingJavaTest" time="0.0"/>
+  <testcase name="SimpleStream_CountWordsWithSixCharacters" classname="java8.streams.FunctionalProgrammingJavaTest" time="0.001"/>
+  <testcase name="calculateAverage" classname="java8.streams.FunctionalProgrammingJavaTest" time="0.002"/>
+  <testcase name="lambdaExpression" classname="java8.streams.FunctionalProgrammingJavaTest" time="0.0"/>
+  <testcase name="listInternalIterLambdaMethodTypeInference" classname="java8.streams.FunctionalProgrammingJavaTest" time="0.0"/>
+  <testcase name="listInternalIterLambdaMethodTypeInferenceJustOne" classname="java8.streams.FunctionalProgrammingJavaTest" time="0.001"/>
+  <testcase name="functionWith4Things" classname="java8.streams.FunctionalProgrammingJavaTest" time="0.002"/>
+  <testcase name="listInternalIterLambdaMethodTypeJava8MethodRef" classname="java8.streams.FunctionalProgrammingJavaTest" time="0.001"/>
+  <testcase name="listIteratorLessCeremonyExternalIter" classname="java8.streams.FunctionalProgrammingJavaTest" time="0.0"/>
+  <testcase name="listInternalIterConsumer" classname="java8.streams.FunctionalProgrammingJavaTest" time="0.001"/>
+  <system-out><![CDATA[Vizsla
+Lab
+Golden
+GSP
+Poodle
+Yorkie
+Mutt
+Vizsla
+Lab
+Golden
+GSP
+Poodle
+Yorkie
+Mutt
+4
+4
+In Main Test
+Silence of the Lambdas
+Vizsla
+Lab
+Golden
+GSP
+Poodle
+Yorkie
+Mutt
+Vizsla
+Lab
+Golden
+GSP
+Poodle
+Yorkie
+Mutt
+In Main Test
+ In thread t1
+Vizsla
+Lab
+Golden
+GSP
+Poodle
+Yorkie
+Mutt
+Vizsla
+Lab
+Golden
+GSP
+Poodle
+Yorkie
+Mutt
+Vizsla
+Lab
+Golden
+GSP
+Poodle
+Yorkie
+Mutt
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="java8.InterestingStuff" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-23T12:18:46" hostname="polpc03758" time="0.009">
+  <properties/>
+  <testcase name="summaryStatistics_and_numberFormatter" classname="java8.InterestingStuff" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

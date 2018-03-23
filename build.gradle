@@ -35,11 +35,6 @@ apply plugin: 'groovy'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
-bootJar {
-    baseName = 'gs-rest-service'
-    version =  '0.1.0'
-}
-
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
@@ -52,7 +47,7 @@ dependencies {
     compile('de.flapdoodle.embed:de.flapdoodle.embed.mongo')
     compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     compile("org.jetbrains.kotlin:kotlin-reflect")
-    compileOnly('org.projectlombok:lombok')
+//    compileOnly('org.projectlombok:lombok')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile('io.projectreactor:reactor-test')
@@ -65,8 +60,8 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 
-sourceSets {
-    main.java.srcDirs = []
-    main.kotlin.srcDirs = ['src/main/java', 'src/main/kotlin']
-    main.resources.srcDirs = ['src/main/resources']
-}
+//sourceSets {
+//    main.java.srcDirs = []
+//    main.kotlin.srcDirs = ['src/main/java', 'src/main/kotlin']
+//    main.resources.srcDirs = ['src/main/resources']
+//}

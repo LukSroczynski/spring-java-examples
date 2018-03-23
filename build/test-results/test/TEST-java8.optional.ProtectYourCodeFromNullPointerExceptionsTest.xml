@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="java8.optional.ProtectYourCodeFromNullPointerExceptionsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-03-23T12:18:46" hostname="polpc03758" time="0.002">
+  <properties/>
+  <testcase name="givenNonNull_whenCreatesOptional_thenCorrect" classname="java8.optional.ProtectYourCodeFromNullPointerExceptionsTest" time="0.0"/>
+  <testcase name="givenNonNull_whenCreatesNonNullable_thenCorrect" classname="java8.optional.ProtectYourCodeFromNullPointerExceptionsTest" time="0.0"/>
+  <testcase name="givenNull_whenThrowsErrorOnCreate_thenCorrect" classname="java8.optional.ProtectYourCodeFromNullPointerExceptionsTest" time="0.0"/>
+  <testcase name="givenNonNull_whenCreatesNullable_thenCorrect" classname="java8.optional.ProtectYourCodeFromNullPointerExceptionsTest" time="0.0"/>
+  <testcase name="whenCreatesEmptyOptional_thenCorrect" classname="java8.optional.ProtectYourCodeFromNullPointerExceptionsTest" time="0.001"/>
+  <testcase name="givenNull_whenCreatesNullable_thenCorrect" classname="java8.optional.ProtectYourCodeFromNullPointerExceptionsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

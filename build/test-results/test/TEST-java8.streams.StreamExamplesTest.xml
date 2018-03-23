@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="java8.streams.StreamExamplesTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2018-03-23T12:18:46" hostname="polpc03758" time="0.025">
+  <properties/>
+  <testcase name="testReduction" classname="java8.streams.StreamExamplesTest" time="0.001"/>
+  <testcase name="testSumCollector" classname="java8.streams.StreamExamplesTest" time="0.002"/>
+  <testcase name="testSum" classname="java8.streams.StreamExamplesTest" time="0.002"/>
+  <testcase name="testStats" classname="java8.streams.StreamExamplesTest" time="0.002"/>
+  <testcase name="testFlatMap" classname="java8.streams.StreamExamplesTest" time="0.001"/>
+  <testcase name="filterAndSortStreamWithCollectorExample" classname="java8.streams.StreamExamplesTest" time="0.003"/>
+  <testcase name="filterStreamExample" classname="java8.streams.StreamExamplesTest" time="0.001"/>
+  <testcase name="filterAndSortStreamExample" classname="java8.streams.StreamExamplesTest" time="0.001"/>
+  <testcase name="mapStreamExample" classname="java8.streams.StreamExamplesTest" time="0.001"/>
+  <testcase name="filterAndSortStreamWithFunctionalComp" classname="java8.streams.StreamExamplesTest" time="0.001"/>
+  <testcase name="simpleStreamExample" classname="java8.streams.StreamExamplesTest" time="0.001"/>
+  <testcase name="testGroupingBy" classname="java8.streams.StreamExamplesTest" time="0.003"/>
+  <testcase name="parallelStreamExample" classname="java8.streams.StreamExamplesTest" time="0.003"/>
+  <testcase name="testGetMax" classname="java8.streams.StreamExamplesTest" time="0.0"/>
+  <testcase name="filterAndLimitStreamExample" classname="java8.streams.StreamExamplesTest" time="0.0"/>
+  <system-out><![CDATA[Vizsla - Lab - Golden - GSP - Poodle - Yorkie - Mutt
+Sum: 21
+Sum: 21
+IntSummaryStatistics{count=6, sum=21, min=1, average=3.500000, max=6}
+1
+2
+3
+4
+5
+6
+Golden, Poodle, Vizsla, Yorkie
+Vizsla
+Golden
+Poodle
+Yorkie
+Golden
+Poodle
+Vizsla
+Yorkie
+6
+3
+6
+3
+6
+6
+4
+GOLDEN, POODLE, VIZSLA
+Vizsla
+Lab
+Golden
+GSP
+Poodle
+Yorkie
+Mutt
+3=[GSP, Lab]
+4=[Mutt]
+6=[Vizsla, Yorkie, Poodle, Golden]
+Poodle
+GSP
+Vizsla
+Yorkie
+Lab
+Golden
+Mutt
+Max: 6
+Vizsla
+123456
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

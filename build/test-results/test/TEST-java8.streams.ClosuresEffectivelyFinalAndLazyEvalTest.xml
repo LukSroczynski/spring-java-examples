@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="java8.streams.ClosuresEffectivelyFinalAndLazyEvalTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-03-23T12:18:46" hostname="polpc03758" time="0.011">
+  <properties/>
+  <testcase name="closureUsingFinal" classname="java8.streams.ClosuresEffectivelyFinalAndLazyEvalTest" time="0.006"/>
+  <testcase name="lambdaExample" classname="java8.streams.ClosuresEffectivelyFinalAndLazyEvalTest" time="0.001"/>
+  <testcase name="closureExample" classname="java8.streams.ClosuresEffectivelyFinalAndLazyEvalTest" time="0.001"/>
+  <testcase name="breakingFinal" classname="java8.streams.ClosuresEffectivelyFinalAndLazyEvalTest" time="0.002"/>
+  <testcase name="closureEffectivelyFinal" classname="java8.streams.ClosuresEffectivelyFinalAndLazyEvalTest" time="0.001"/>
+  <system-out><![CDATA[2
+4
+6
+8
+10
+12
+2
+4
+6
+8
+10
+12
+2
+4
+6
+8
+10
+12
+4
+8
+12
+16
+20
+24
+2
+4
+6
+8
+10
+12
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="java8.streams.FunctionalProgrammingKotlinTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-03-23T12:18:46" hostname="polpc03758" time="0.003">
+  <properties/>
+  <testcase name="countWordsWithSixCharacters" classname="java8.streams.FunctionalProgrammingKotlinTest" time="0.002"/>
+  <testcase name="listInternalIterLambdaMethodTypeJava8MethodRef" classname="java8.streams.FunctionalProgrammingKotlinTest" time="0.0"/>
+  <system-out><![CDATA[Vizsla
+Lab
+Golden
+GSP
+Poodle
+Yorkie
+Mutt
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
