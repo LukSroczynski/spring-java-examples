@@ -18,7 +18,7 @@ class BootstrapCLR(
 
         Flux.just("Ojciec Chrzestny", "Nietykalni", "Władca Pierścieni", "Django", "Incepcja")
                 .map { Movie(title = it, id = UUID.randomUUID().toString()) }
-                .flatMap { movieRepository.save(it) }
+                .map{ movieRepository.save(it).then() }
                 .subscribe(null, null, { movieRepository.findAll().subscribe(System.out::println) })
     }
 }

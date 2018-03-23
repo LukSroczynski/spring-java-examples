@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 import static org.junit.Assert.assertEquals;
 
-public class FunctionalProgrammingJavaTest {
+public class FunctionalProgrammingJava {
 
     @Test
     public void SimpleStream_CountWordsWithSixCharacters() {

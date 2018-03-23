@@ -4,7 +4,7 @@ import junit.framework.TestCase.assertEquals
 import org.junit.Test
 import java.util.*
 
-class FunctionalProgrammingKotlinTest {
+class FunctionalProgrammingKotlin {
 
     @Test
     fun countWordsWithSixCharacters() {

@@ -11,7 +11,7 @@ import java.util.OptionalInt;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class StreamExamplesTest {
+public class StreamExamples {
 
     @Test
     public void simpleStreamExample() throws Exception {

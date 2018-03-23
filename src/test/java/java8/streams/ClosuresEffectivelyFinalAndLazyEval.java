@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class ClosuresEffectivelyFinalAndLazyEvalTest {
+public class ClosuresEffectivelyFinalAndLazyEval {
 
     @Test
     public void lambdaExample() throws Exception {
