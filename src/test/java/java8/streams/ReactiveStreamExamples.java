@@ -39,7 +39,7 @@ public class ReactiveStreamExamples {
         Flux<String> dogs = Flux.just("Vizsla", "Lab", "Golden", "GSP", "Poodle", "Yorkie", "Mutt");
 
         //trigger subscription
-        dogs.doOnEach(dog -> System.out.println(dog.get())).subscribe();
+        dogs.doOnEach( dog -> System.out.println(dog.get()) ).subscribe();
     }
 
     @Test
