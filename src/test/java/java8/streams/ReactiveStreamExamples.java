@@ -118,7 +118,7 @@ public class ReactiveStreamExamples {
     public void testFlatMap() throws Exception {
         Flux<List<List<Integer>>> listFlux = Flux.just(Arrays.asList(Arrays.asList(1, 2, 3), Arrays.asList(4, 5, 6)));
 
-        listFlux.flatMap(Flux::fromIterable)
+        listFlux.flatMap(lists -> Flux.fromIterable(lists))
                 .flatMap(lists -> Flux.fromIterable(lists))
                 .subscribe(System.out::println);
     }
