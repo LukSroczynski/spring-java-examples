@@ -47,6 +47,8 @@ dependencies {
     compile('de.flapdoodle.embed:de.flapdoodle.embed.mongo')
     compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     compile("org.jetbrains.kotlin:kotlin-reflect")
+    compile group: 'com.google.guava', name: 'guava', version: '11.0.2'
+    implementation 'com.beust:klaxon:2.1.14'
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile('io.projectreactor:reactor-test')

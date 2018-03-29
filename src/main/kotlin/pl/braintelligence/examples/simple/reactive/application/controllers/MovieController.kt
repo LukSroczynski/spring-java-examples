@@ -38,6 +38,8 @@ class MovieController(
         return movieService.getAllMovies()
     }
 
+
+
     companion object {
         private val logger = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass())
     }
